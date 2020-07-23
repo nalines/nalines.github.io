@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Plush Event Decor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plush Event decor">
+    <!-- jQuery 1.8 or later, 33 KB -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Fotorama from CDNJS, 19 KB -->
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <link href="yoga.css" rel="stylesheet">
+</head>
+<body>
+  <header class="content">
+    <h1><a href="index.html">Plush Beauty and Event Management</a></h1>
+  </header>
+  <nav>
+    <ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+	  <li><a href="store.html">Store</a></li>
+	</ul>
+  </nav>
+  <div id="wrapper">
+  <main>
+	<h2>Contact Plush Beauty and Event Management</h2>
+	<p>Fill out the form below to contact Plush Beauty and Event Management. All information is required. </p>
+	 <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+     <label for="myName">Name: </label>
+	 <input type="text" id="myName" name="myName" required>
+     <label for="myEmail">E-mail: </label>
+	 <input type="email" id="myEmail" name="myEmail" required>
+     <label for="myRefer">How did you hear about us?</label>
+     <input type="text" name="myRefer" id="myRefer" list="referral" required>
+       <datalist id="referral">
+          <option>Google</option>
+          <option>Bing</option>
+          <option>Facebook</option>
+          <option>Friend</option>
+          <option>Radio Ad</option>
+       </datalist>
+     <label for="myComments">Comments: </label>
+	 <textarea id="myComments" name="myComments" rows="2" cols="20" required></textarea>
+     <input type="submit" value="Send Now" id="mySubmit">
+</form>
+
+  </main>
+  <footer>
+    Copyright &copy; 2020 Plush Beauty and Decor<br>
+    <a href="mailto:admin@plusheventdecor.com">admin@plusheventdecor.com</a>
+  </footer>
+</div>
+</body>
+</html>
